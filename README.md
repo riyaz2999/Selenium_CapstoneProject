@@ -86,10 +86,13 @@ JavaScript Execution
 
 ## Tech Stack
 
-* Java
-* Selenium WebDriver
-* WebDriverManager
-* ChromeDriver
+| Tool           | Version Requirement                        |
+| -------------- | ------------------------------------------ |
+| Java           | 11 or higher                               |
+| Maven          | 3.6 or higher                              |
+| Chrome Browser | Latest version                             |
+| ChromeDriver   | Not required (handled by WebDriverManager) |
+
 
 ---
 
