@@ -8,18 +8,26 @@ This project automates UI elements on a practice website using Selenium WebDrive
 
 ## Project Structure
 
-```
-Selenium_CapstoneProject
+## Project Structure
+
+```id="nq3z1p"
+Selenium_CapstoneProject/
 │
-├── src
-│   └── main
-│       └── java
-│           └── riyaz_wipro
-│               └── CapstoneProject
-│                   └── MainCapstone.java
+├── pom.xml                          ← Maven build file (dependencies, plugins)
 │
-├── .gitignore
-└── README.md
+├── Screenshots/                     ← Stores all execution screenshots
+│   └── TC001.png ... TC019.png      ← One image per test case
+│
+├── src/
+│   └── main/
+│       └── java/
+│           └── riyaz_wipro/
+│               └── CapstoneProject/
+│                   └── MainCapstone.java  ← Main automation script
+│
+├── .gitignore                       ← Excludes unwanted files from Git
+│
+└── README.md                        ← Project documentation
 ```
 
 ---
